@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>滚动加载</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<style type="text/css">
+			.w{width: 600px;margin:20px auto;}
+			.w img{width: 100%;}
+			.scrollLoading{background: url(images/loading.gif) no-repeat center center;}
+			@media only screen and (max-width: 600px) {
+				.w{width: 96%;margin: 20px 2%;}
+				}
+		</style>
+	</head>
+	<body>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Akali_Splash_Tile_5.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Amumu_Splash_Tile_0.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Annie_Splash_Tile_6.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Ezreal_Splash_Tile_1.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Katarina_Splash_Tile_5.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Lulu_Splash_Tile_4.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Lux_Splash_Tile_6.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/MissFortune_Splash_Tile_8.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Nautilus_Splash_Tile_2.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Renekton_Splash_Tile_7.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/TwistedFate_Splash_Tile_5.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Vayne_Splash_Tile_5.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Veigar_Splash_Tile_1.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Veigar_Splash_Tile_6.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Vi_Splash_Tile_1.jpg"/>
+		</div>
+		<div class="w">
+			<img src="images/pixel.gif" alt="" class="scrollLoading" data-url="images/Vladimir_Splash_Tile_5.jpg"/>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/jquery.scrollLoading.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".scrollLoading").scrollLoading();
+		})
+	</script>
+</html>
